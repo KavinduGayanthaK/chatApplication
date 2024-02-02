@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="650.0" prefWidth="395.0" styleClass="gradiant" stylesheets="@../style/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.AddNewUserFormController">
+   <children>
+      <TextField fx:id="txtUserName" layoutX="40.0" layoutY="202.0" prefHeight="44.0" prefWidth="314.0" promptText="Usernaem" />
+      <TextField fx:id="txtPassword" layoutX="40.0" layoutY="303.0" prefHeight="44.0" prefWidth="314.0" promptText="Password" />
+      <JFXButton fx:id="registerBtn" layoutX="134.0" layoutY="418.0" onAction="#registerBtnOnAction" prefHeight="35.0" prefWidth="125.0" text="ADD" textFill="WHITE" />
+      <ImageView fx:id="profileImage" fitHeight="78.0" fitWidth="90.0" layoutX="158.0" layoutY="50.0" onMouseClicked="#AddImageOnMouseClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-add-camera-60.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

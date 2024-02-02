@@ -1,0 +1,26 @@
+.headPane {
+    -fx-background-color: linear-gradient(to right, #42c923, #186400)
+}
+
+.calender {
+    -fx-background-color: linear-gradient(to right, #00B7D8, #188AF0);
+}
+
+.calender1 {
+    -fx-background-color: linear-gradient(to left, #00B7D8, #188AF0);
+}
+
+.gridpane {
+    -fx-background-color: linear-gradient(to right,#5A5A5A, #FFFFFF);
+}
+
+.text-field{
+    -fx-background-radius: 10,10,10,10;
+    -fx-text-fill: black ;
+    -fx-font-size: 15;
+    -fx-font-weight: normal;
+}
+
+
+
+

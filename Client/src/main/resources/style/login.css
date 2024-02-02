@@ -1,0 +1,16 @@
+.gradiant{
+    -fx-background-color: linear-gradient(to right, #767a76, #bfc7bf);
+}
+
+.text-field{
+    -fx-background-radius: 10,10,10,10;
+    -fx-text-fill: black ;
+    -fx-font-size: 18;
+    -fx-font-weight: normal;
+}
+.button{
+    -fx-background-radius: 10,10,10,10;
+    -fx-background-color: linear-gradient(to left, #162315, #d0d4d5);
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
